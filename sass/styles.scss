@@ -1,0 +1,41 @@
+// frameworks
+
+@import "foundation";
+
+
+$dark-color : green;
+
+$medium: "only screen and (min-width: 600px) and (max-width: 768px)";
+$large: "only screen and (min-width: 769px)";
+
+body {
+
+  background-color: $dark-color;
+
+  &:after {
+
+      content: 'hello small screen!!!!';
+
+    }
+
+  @media #{$medium}{
+
+    &:after {
+
+      content: 'hello medium screen!!!!';
+
+    }
+
+  }
+
+  @media #{$large}{
+
+    &:after {
+
+      content: 'hello big screen!!!!';
+
+    }
+
+  }
+
+}

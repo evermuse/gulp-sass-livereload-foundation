@@ -1,0 +1,22 @@
+{
+  "name": "gulp-sass-livereload-foundation",
+  "version": "0.0.0",
+  "authors": [
+    "Bryan Alexander <bryanalexander@me.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
